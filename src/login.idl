@@ -1,4 +1,4 @@
-module login{
+module LoginApp{
     interface login{
             boolean insertarLogin(in wstring usuario, in wstring contraseña);
           boolean actualizarLogin(in wstring usuario, in wstring contraseña);
